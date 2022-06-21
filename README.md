@@ -1,11 +1,11 @@
 # Weather-App-Group-Project-
 
-Group Members:
+**Group Members**
 1. Maisarah Binti Ishak (2013112)
 2. Siti Husna Mohd Zubir 
 3. Wan Muhammad Izzat Bin Wan Abd Ghapar
 
-Summary of Project:
+**Summary of Project**
 This is a weather app that tracks the temperature, weather, humidity, and wind speed of a certain location in Malaysia. Based on the default interface, the system tracks the weather deatails in Selangor. There is no feature to track other location/city's weather details through the UI, so user needs to hard code the location in order to find out the weather details.
 
 If you want to locate another city please follow this instruction:
@@ -14,9 +14,9 @@ http.Response response = await http.get(Uri.parse('https://api.openweathermap.or
 
 - Change the location/city name from line 27 in main.dart
 - Delete 'Selangor' from the link and change the location to any city in Malaysia
-- E.g https://api.openweathermap.org/data/2.5/weather?q=Kuala&Lumpur&units=metric&appid=fada61b32178ac7239e001419abf4362
+- E.g http.Response response = await http.get(Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=**Kuala&Lumpur**&units=metric&appid=fada61b32178ac7239e001419abf4362'));
 - From this example, the weather details from Kuala Lumpur will be displayed. 
 
-Objective of Project:
+**Objective of Project**
 - To create a weather app that tracks down weather details for certain locations in Malaysia
 - To verify the user's email address using firebase authentication
