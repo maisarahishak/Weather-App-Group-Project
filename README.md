@@ -6,6 +6,7 @@
 3. Wan Muhammad Izzat Bin Wan Abd Ghapar
 
 **Summary of Project**
+
 This is a weather app that tracks the temperature, weather, humidity, and wind speed of a certain location in Malaysia. Based on the default interface, the system tracks the weather deatails in Selangor. There is no feature to track other location/city's weather details through the UI, so user needs to hard code the location in order to find out the weather details.
 
 If you want to locate another city please follow this instruction:
