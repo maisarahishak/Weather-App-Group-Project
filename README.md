@@ -12,6 +12,7 @@ This is a weather app that tracks the temperature, weather, humidity, and wind s
 If you want to locate another city please follow this instruction:
 
 Line 27:
+
 http.Response response = await http.get(Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=Selangor&units=metric&appid=fada61b32178ac7239e001419abf4362'));
 
 - Change the location/city name from line 27 in main.dart
